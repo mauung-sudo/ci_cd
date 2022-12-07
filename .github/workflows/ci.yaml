@@ -11,6 +11,6 @@ jobs:
 
      - name: Install packages
        run: npm i
-       
-     - name: Run ESline
+
+     - name: Run ESlint
        run: npm run lint
